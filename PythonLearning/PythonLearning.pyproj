@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0912121e-2699-471b-b71c-352cbe16ae1a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ListAllEC2Instances.py</StartupFile>
+    <StartupFile>KafkaProducer.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="KafkaConsumer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="KafkaProducer.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ListAllEC2Instances.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
