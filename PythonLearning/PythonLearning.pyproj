@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0912121e-2699-471b-b71c-352cbe16ae1a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>KafkaProducer.py</StartupFile>
+    <StartupFile>ListAllEC2InstancesAndS3Buckets.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,7 +27,7 @@
     <Compile Include="KafkaProducer.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ListAllEC2Instances.py" />
+    <Compile Include="ListAllEC2InstancesAndS3Buckets.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
